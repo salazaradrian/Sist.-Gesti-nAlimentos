@@ -326,8 +326,8 @@ public class Tabla extends javax.swing.JFrame {
             int id = Integer.parseInt(txtID.getText());
             String nombre = txtNombre.getText();
             String tipo = txtTipo.getText();
-            double precio = Double.parseDouble(txtPrecio.getText());
             double calorias = Double.parseDouble(txtCalorias.getText());
+            double precio = Double.parseDouble(txtPrecio.getText());
             Estado estado = (Estado) ComboBoxEstado.getSelectedItem();
 
             Alimentos alimento = new Alimentos(id, nombre, tipo, calorias, precio, estado);
@@ -349,7 +349,7 @@ public class Tabla extends javax.swing.JFrame {
         txtID.setText(TableAlimentos.getValueAt(fila, 0).toString());
         txtNombre.setText(TableAlimentos.getValueAt(fila, 1).toString());
         txtTipo.setText(TableAlimentos.getValueAt(fila, 2).toString());
-        txtCalorias.setText(TableAlimentos.getValueAt(fila, 3).toString().substring(1));
+        txtCalorias.setText(TableAlimentos.getValueAt(fila, 3).toString());
         txtPrecio.setText(TableAlimentos.getValueAt(fila, 4).toString().substring(1));
         ComboBoxEstado.setSelectedItem(Estado.valueOf(TableAlimentos.getValueAt(fila, 5).toString()));
     }//GEN-LAST:event_TableAlimentosMouseClicked
