@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package Interfaz;
 
 import com.mycompany.sist.gestionalimentos.Alimentos;
@@ -10,10 +6,12 @@ import java.awt.Font;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Adrian Salazar R
- */
+// Estudiantes:
+// Adrián Gerardo Salazar Rodríguez
+// Jose David Vargas Rodríguez
+// Ronny Antonio Pérez Ruiz
+// Jeffry Ricardo Elizondo Madrigal
+
 public class Tabla extends javax.swing.JFrame {
 
     public Tabla() {
